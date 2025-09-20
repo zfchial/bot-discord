@@ -1,0 +1,16 @@
+{
+  "name": "wajik-yuri-bot",
+  "version": "1.0.0",
+  "description": "Discord bot pemantau anime genre girls-love dari Otakudesu melalui wajik-anime-api",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "register": "node register-commands.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
